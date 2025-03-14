@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Acme", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(30,20,4);
+    height: calc(20px + 3vw);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0.5vw 0;
+}
+
+nav ul a {
+    display: flex;
+    text-decoration: none;
+    color: bisque;
+    align-items: center;
+    margin-right: 3vw;
+    font-size: calc(12px + 0.8vw);
+}
+
+.navlink {
+    white-space: nowrap;
+}
+
+.navlink:hover {
+    color: rgb(115,171,32);
+    text-decoration: underline;
+}
+
+#logo {
+    height: calc(16px + 1vw);
+    margin-left: 2vw;
+}
+
+#logotext {
+    margin-left: 0.5vw;
+    font-size: calc(16px + 1.5vw);
+    margin-right: 3vw;
+}
+
+#welcome {
+    font-size: calc(24px + 4vw);
+    padding-top: 2vw;
+    color: bisque;
+}
+
+#adventure {
+    font-size: calc(16px + 1vw);
+    color: bisque;
+}
+
+#booking {
+    margin-left: 3vw;
+    background-color: bisque;
+    color:rgb(30,20,4);
+    padding: 0.3vw 1vw;
+    border-radius: 0.5vw;
+    white-space: nowrap;
+}
+
+#booking:hover {
+    color:rgb(115,171,32);
+}
+
+#homediv {
+    background-image: url("https://tahitivoyages.com.au/wp-content/uploads/2024/03/Westin-Bora-Bora-Resort-Spa-Aerial.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70vh;
+}
+
+#islandintro {
+    background-color: rgb(30,20,4);
+    color: bisque;
+    padding: 2vw 10vw;
+    font-size: calc(12px + 0.8vw);
+}
+
+#hamburger {
+    filter: invert(91%) sepia(4%) saturate(4016%) hue-rotate(316deg) brightness(109%) contrast(101%);
+    height: 3vw;
+    display: none;
+}
+
+#hamburgerlist {
+    display: none;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(30,20,4);
+    color: bisque;
+    list-style-type: none;
+}
+
+#hamburgerlist.open {
+    display: block;
+    position: absolute;
+    top: calc(20px + 3vw);
+}
+
+.burgerlistitem {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.burgerlink:hover {
+    color: rgb(115,171,32);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+    padding: 1.2vw 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: fit-content;
+}
+
+#designby {
+    color: rgb(30,20,4);
+    margin-right: 0.4vw;
+}
+
+#designer {
+    color: rgb(193,154,107);
+}
+
+.socialicon {
+    height: 2.5vw;
+    margin: 0 1vw;
+    filter: invert(8%) sepia(17%) saturate(1689%) hue-rotate(359deg) brightness(106%) contrast(101%);
+}
+
+#rightfoot {
+    margin-right: 2vw;
+    color: rgb(30,20,4);
+}
+
+h3 {
+    font-size: calc(8px + 1vw);
+    color: rgb(30,20,4);
+}
+
+#leftfoot {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 2vw;
+    padding-right: calc(50px + 5vw);
+}
+
+#centerfoot {
+    margin: auto;
+    padding-right: calc(40px + 10vw);
+}
+
+#centerfoot a {
+    text-decoration: none;
+}
+
+.pagediv:before {
+    content: "";
+    background-image: url("https://images.unsplash.com/photo-1617736006356-7c412dc34271?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJlYWNoJTIwd2F2ZXN8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.pagediv {
+    position: relative;
+    width: 100%;
+}
+
+.pagetitle {
+    color: rgb(30,20,4);
+    font-size: calc(24px + 3.5vw);
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+
+.pagetablediv {
+    display: flex;
+    justify-content: center;
+}
+
+.pagetable {
+    width: fit-content;
+    margin-bottom: 6vw;
+}
+
+.pageimg {
+    float: right;
+    width: calc(180px + 12vw);
+    border-radius: 2vw;
+    
+}
+
+.pagesubtitle {
+    text-align: left;
+    color: rgb(30,20,4);
+    font-size: calc(16px + 1.5vw);
+    padding-bottom: 1vw;
+    padding-left: 1.5vw;
+}
+
+.pagetext {
+    text-align: left;
+    width: calc(100px + 20vw);
+    color: rgb(30,20,4);
+    font-size: calc(10px + 1vw);
+    padding-left: 1.5vw;
+}
+
+.pagetd {
+    vertical-align: top;
+}
+
+#lodgingreg {
+    color: rgb(30,20,4);
+    font-size: calc(14px + 1vw);
+    padding: 3vw 5vw;
+}
+
+.transportsub {
+    color: rgb(30,20,4);
+    font-size: calc(18px + 2vw);
+    margin-bottom: 4vw;
+    text-decoration: underline;
+}
+
+#miscinfolist {
+    width: 90vw;
+    margin: auto;
+    list-style-type: none;
+}
+
+#miscinfolist li {
+    font-size: calc(14px + 1vw);
+    padding-bottom: calc(20px + 2vw);
+    color: rgb(30,20,4);
+}
+
+@media only screen and (max-width: 1100px)  {
+    .navlink {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        margin-left: auto;
+        margin-right: 3vw;
+    }
+
+    #hamburger:hover {
+        cursor: pointer;
+    }
+
+    .burgerlink {
+        text-decoration: none;
+        color: bisque;
+    }
+
+    #booking {
+        margin-left: 45vw;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .burgerlink {
+        display: none;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #hamburgerlist {
+        display: none;
+        transform: translateX(100%);
+    }
+}

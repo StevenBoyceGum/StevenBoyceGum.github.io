@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Welcome to Taniti</title>
+        <script>
+            function menuOpen() {
+                menu = document.getElementById('hamburgerlist');
+                menu.classList.toggle('open');
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" id="logolink">
+                            <img src="https://www.seekpng.com/png/full/309-3098034_palm-tree-icon-transparent-palm-tree-icon.png" id="logo" alt="palm tree logo">
+                            <p id="logotext">Taniti</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="navlink">Home</a>
+                    </li>
+                    <li>
+                        <a href="lodging.html" class="navlink">Lodging</a>
+                    </li>
+                    <li>
+                        <a href="transportation.html" class="navlink">Transportation</a>
+                    </li>
+                    <li>
+                        <a href="foodanddrink.html" class="navlink">Food & Drink</a>
+                    </li>
+                    <li>
+                        <a href="thingstodo.html" class="navlink">Things to Do</a>
+                    </li>
+                    <li>
+                        <a href="miscinfo.html" class="navlink">Misc Info</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expedia.com/Tahiti.d180103.Destination-Travel-Guides" target="_blank" id="booking">Book a Trip</a>
+                    </li>
+                </ul>
+                <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" id="hamburger" onclick="menuOpen()">
+            </nav>
+        </header>
+        <ul id="hamburgerlist">
+            <li class="burgerlistitem">
+                <a href="index.html" class="burgerlink">Home</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="lodging.html" class="burgerlink">Lodging</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="transportation.html" class="burgerlink">Transportation</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="foodanddrink.html" class="burgerlink">Food & Drink</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="thingstodo.html" class="burgerlink">Things to Do</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="miscinfo.html" class="burgerlink">Misc Info</a>
+            </li> 
+        </ul>
+        <div class="pagediv">
+            <h1 class="pagetitle">Lodging</h1>
+            <div class="pagetablediv">
+                <table class="pagetable">
+                    <tr>
+                        <td>
+                            <img class="pageimg" alt="Tanitian Hostel" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/518729510.jpg?k=51e44fb0cb1a5626290668963ea8a21a41c227dcf8a86944bd4fc7f556e0b21c&o=&hp=1">
+                        </td>
+                        <td class="pagetd">
+                            <h2 class="pagesubtitle">Hostel</h2>
+                            <p class="pagetext">If you're feeling social and looking for inexpensive lodging, consider staying at one of Taniti's hostels. Hostels are a great way to meet fellow travelers and enjoy a sense of community during your stay on Taniti.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pagetablediv">
+                <table class="pagetable">
+                    <tr>
+                        <td>
+                            <img class="pageimg" alt="Tanitian Resort" src="https://img.freepik.com/free-photo/pool_74190-1978.jpg">
+                        </td>
+                        <td class="pagetd">
+                            <h2 class="pagesubtitle">Resort</h2>
+                            <p class="pagetext">Taniti offers one 4-star resort. The resort is large and accomodating. All inclusive packages are available. If you're looking for a luxurious lodging option, consider staying at the resort.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pagetablediv">
+                <table class="pagetable">
+                    <tr>
+                        <td>
+                            <img class="pageimg" alt="Tanitian Hotel" src="https://images.trvl-media.com/lodging/17000000/16370000/16369500/16369460/d22f6bd4.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill">
+                        </td>
+                        <td class="pagetd">
+                            <h2 class="pagesubtitle">Hotel</h2>
+                            <p class="pagetext">There are many small, family-owned hotels on Taniti. No matter where you are staying on the island, there is likely a nearby hotel.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pagetablediv">
+                <table class="pagetable">
+                    <tr>
+                        <td>
+                            <img class="pageimg" alt="Tanitian Bed & Breakfast" src="https://cf.bstatic.com/static/img/theme-index/bg_bed_and_breakfast_new/5ee8123e4ecee757b350c2633c013c7705a9acc1.jpg">
+                        </td>
+                        <td class="pagetd">
+                            <h2 class="pagesubtitle">Bed & Breakfast</h2>
+                            <p class="pagetext">There are a growing number of bed & breakfasts on Taniti. If you're looking for a more personal experience with the locals, a bed & breakfast is the way to go.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p id="lodgingreg">All types of lodging are strictly regulated and regularly inspected by the Tanitian government.</p>
+        </div>
+        <footer>
+            <div id="leftfoot">
+                <h3 id="designby">Design by</h3>
+                <h3 id="designer">Steve Gum</h3>
+            </div>
+            <div id="centerfoot">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-512.png">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png">
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-512.png">
+                </a>
+            </div>
+            <div id="rightfoot">
+                <h3 id="copyright">© 2025 Taniti</h3>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Welcome to Taniti</title>
+        <script>
+            function menuOpen() {
+                menu = document.getElementById('hamburgerlist');
+                menu.classList.toggle('open');
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" id="logolink">
+                            <img src="https://www.seekpng.com/png/full/309-3098034_palm-tree-icon-transparent-palm-tree-icon.png" id="logo" alt="palm tree logo">
+                            <p id="logotext">Taniti</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="navlink">Home</a>
+                    </li>
+                    <li>
+                        <a href="lodging.html" class="navlink">Lodging</a>
+                    </li>
+                    <li>
+                        <a href="transportation.html" class="navlink">Transportation</a>
+                    </li>
+                    <li>
+                        <a href="foodanddrink.html" class="navlink">Food & Drink</a>
+                    </li>
+                    <li>
+                        <a href="thingstodo.html" class="navlink">Things to Do</a>
+                    </li>
+                    <li>
+                        <a href="miscinfo.html" class="navlink">Misc Info</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expedia.com/Tahiti.d180103.Destination-Travel-Guides" target="_blank" id="booking">Book a Trip</a>
+                    </li>
+                </ul>
+                <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" id="hamburger" onclick="menuOpen()">
+            </nav>
+        </header>
+        <ul id="hamburgerlist">
+            <li class="burgerlistitem">
+                <a href="index.html" class="burgerlink">Home</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="lodging.html" class="burgerlink">Lodging</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="transportation.html" class="burgerlink">Transportation</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="foodanddrink.html" class="burgerlink">Food & Drink</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="thingstodo.html" class="burgerlink">Things to Do</a>
+            </li>
+            <li class="burgerlistitem">
+                <a href="miscinfo.html" class="burgerlink">Misc Info</a>
+            </li> 
+        </ul>
+        <div id="homediv">
+            <h1 id="welcome">Welcome to Taniti</h1>
+            <h3 id="adventure">Your island adventure awaits...</h3>
+        </div>
+        <p id="islandintro">Taniti is a small, tropical island in the Pacific. Despite its small size, the Tanitian terrain is varied. There are sandy and rocky beaches, a small harbor, lush rainforests, and a mountainous interior that includes a small, active volcano. Taniti has an indigenous population of about 20,000. Until a recent increase in tourism, most of the Tanitian economy was dominated by fishing and agriculture.</p>
+        <footer>
+            <div id="leftfoot">
+                <h3 id="designby">Design by</h3>
+                <h3 id="designer">Steve Gum</h3>
+            </div>
+            <div id="centerfoot">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-512.png" alt="facebook logo">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png" alt="instagram logo">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-512.png" alt="linkedin logo">
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    <img class="socialicon" src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-512.png" alt="twitter logo">
+                </a>
+            </div>
+            <div id="rightfoot">
+                <h3 id="copyright">© 2025 Taniti</h3>
+            </div>
+        </footer>
+    </body>
+</html>
