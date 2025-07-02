@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touchstone Services</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script>
+        function menuOpen() {
+            menu = document.getElementById('hamburgerlist');
+            menu.classList.toggle('open');
+        }
+    </script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img id="navbarlogo" src="TouchstoneServicesLogo.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="navlink" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navlink" href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a class="navlink" href="services.html">Our Services</a>
+                </li>
+                <li>
+                    <a class="navlink" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" id="hamburger" onclick="menuOpen()">
+        </nav>
+    </header>
+    <ul id="hamburgerlist">
+        <li class="burgerlistitem">
+            <a href="index.html" class="burgerlink">Home</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="about.html" class="burgerlink">About Us</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="services.html" class="burgerlink">Our Services</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="contact.html" class="burgerlink">Contact Us</a>
+        </li> 
+    </ul>
+    <div class="mainPageDiv">
+        <h1 class="pageTitle">About Us</h1>
+        <div class="imgTextDiv">
+            <div class="imgDiv">
+                <img src="placeholder.png" class="textImg">
+            </div>
+            <div class="textDiv">
+                <h2 class="pageSubtitle">Our Mission</h2>
+                <p class="imgText">
+                    We aim to bring the best possible customer service solution to every business.
+                    We achieve this by building solutions around the needs of the business.
+                    Each business has its own specific set of needs.
+                    These unique needs are the foundation for establishing the best customer service outcome.
+                </p>
+            </div>
+        </div>
+        <div class="imgTextDiv">
+            <div class="imgDiv">
+                <img src="placeholder.png" class="textImg">
+            </div>
+            <div class="textDiv">
+                <h2 class="pageSubtitle">Our Approach</h2>
+                <p class="imgText">
+                    With a lifetime of customer service experience, we utilize de-escalation techniques, 
+                    manage strict compliance requirements and legal regulations, and provide analytical insights 
+                    to deliver a complete customer service package.
+                </p>
+            </div>
+        </div>
+        <h2 class="pageSubtitle" id="leadersSubtitle">Meet Our Leaders</h2>
+        <div class="imgTextDiv">
+            <div class="imgDiv">
+                <img src="placeholder.png" class="textImg">
+            </div>
+            <div class="textDiv">
+                <h2 class="pageSubtitle">Jeremy Stout</h2>
+                <p class="imgText">
+                    Jere Bear's bio here.
+                </p>
+            </div>
+        </div>
+        <div class="imgTextDiv">
+            <div class="imgDiv">
+                <img src="placeholder.png" class="textImg">
+            </div>
+            <div class="textDiv">
+                <h2 class="pageSubtitle">Gary Markert</h2>
+                <p class="imgText">
+                    Gare Bear's bio here.
+                </p>
+            </div>
+        </div>
+        <div class="imgTextDiv">
+            <div class="imgDiv">
+                <img src="placeholder.png" class="textImg">
+            </div>
+            <div class="textDiv">
+                <h2 class="pageSubtitle">Noah Frederick</h2>
+                <p class="imgText">
+                    Noah Boa's bio here.
+                </p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

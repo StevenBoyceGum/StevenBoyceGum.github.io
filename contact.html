@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touchstone Services</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script>
+        function menuOpen() {
+            menu = document.getElementById('hamburgerlist');
+            menu.classList.toggle('open');
+        }
+    </script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img id="navbarlogo" src="TouchstoneServicesHorizontalLogo.png">
+                    </a>
+                </li>
+                <li>
+                    <a class="navlink" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navlink" href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a class="navlink" href="services.html">Our Services</a>
+                </li>
+                <li>
+                    <a class="navlink" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <img src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png" id="hamburger" onclick="menuOpen()">
+        </nav>
+    </header>
+    <ul id="hamburgerlist">
+        <li class="burgerlistitem">
+            <a href="index.html" class="burgerlink">Home</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="about.html" class="burgerlink">About Us</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="services.html" class="burgerlink">Our Services</a>
+        </li>
+        <li class="burgerlistitem">
+            <a href="contact.html" class="burgerlink">Contact Us</a>
+        </li> 
+    </ul>
+    <div class="mainPageDiv">
+        <h1 class="pageTitle">Contact Us</h1>
+        <div class="contactDiv">
+            <div id="emailDiv">
+                <img src="emailIcon.png" class="contactIcon" id="emailImg" alt="Email Icon">
+                <h3 class="contactSubtitle">Email</h3>
+                <a href="mailto:Jeremy@TouchstoneProtect.com" class="contactText emailText">Jeremy@TouchstoneProtect.com</a>
+                <a href="mailto:Gary@TouchstoneProtect.com" class="contactText emailText">Gary@TouchstoneProtect.com</a>
+                <a href="mailto:Noah@TouchstoneProtect.com" class="contactText emailText">Noah@TouchstoneProtect.com</a>
+            </div>
+            <div id="phoneDiv">
+                <img src="phoneIcon.png" class="contactIcon" id="phoneImg" alt="Phone Icon">
+                <h3 class="contactSubtitle">Phone</h3>
+                <p class="contactText">Jeremy: (555)555-5555</p>
+                <p class="contactText">Gary: (555)555-5555</p>
+                <p class="contactText">Noah: (555)555-5555</p>
+            </div>
+        </div>
+        <div class="contactDiv">
+            <div id="locationDiv">
+                <img src="locationIcon.png" class="contactIcon" id="locationImg" alt="Location Icon">
+                <h3 class="contactSubtitle">Address</h3>
+                <p class="contactText">4085 N St Peters Pkwy</p>
+                <p class="contactText">St Peters, MO 63304</p>
+            </div>
+            <div id="socialDiv">
+                <img src="socialIcon.png" class="contactIcon" id="socialImg" alt="Social Icon">
+                <h3 class="contactSubtitle">Social Media</h3>
+                <div id="socialIconDiv">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="facebookIcon.svg" alt="Facebook Logo" class="contactSocialIcon">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="instagramIcon.svg" alt="Instagram Logo" class="contactSocialIcon">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="linkedinIcon.svg" alt="LinkedIn Logo" class="contactSocialIcon">
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <img src="twitterIcon.svg" alt="Twitter Logo" class="contactSocialIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
