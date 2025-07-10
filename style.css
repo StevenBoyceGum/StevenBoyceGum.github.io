@@ -183,9 +183,9 @@ nav ul {
 }
 
 .textImg {
+    object-fit: cover;
     width: 100%;
     border-radius: 2vw;
-    height: auto;
 }
 
 .benefitsSubtitle {
