@@ -14,8 +14,8 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #c7eeee;
-    height: calc(20px + 3vw);
+    background-color: rgb(223, 223, 223);
+    height: calc(40px + 3vh);
     width: 100vw;
     padding-right: 10px;
 }
@@ -34,20 +34,20 @@ nav ul {
 
 .navlink:hover {
     text-decoration: underline;
-    color: #1ba1a4;
+    color: #35e6f9;
 }
 
 .navlink {
     text-decoration: none;
-    color: #065d66;
+    color: #285068;
     font-weight: bold;
     font-size: calc(8px + 0.8vw);
     padding: 0 2vw;
 }
 
 #navbarlogo {
-    height: calc(20px + 2.5vw);
-    padding: 0 calc(6px + 1vw);
+    height: calc(30px + 3vh);
+    padding: 1vh calc(6px + 1vw);
 }
 
 #hamburger {
@@ -60,7 +60,7 @@ nav ul {
     display: none;
     width: 100vw;
     z-index: 999;
-    background-color: #c7eeee;
+    background-color: rgb(223, 223, 223);
     list-style-type: none;
     text-align: center;
 }
@@ -77,14 +77,14 @@ nav ul {
 }
 
 .burgerlink {
-    color: #065d66;
+    color: #285068;
     font-weight: bold;
     font-size: calc(12px + 0.6vw);
 }
 
 .burgerlink:hover {
     text-decoration: underline;
-    color: #1ba1a4;
+    color: #35e6f9;
 }
 
 .mainPageDiv::before {
@@ -110,13 +110,13 @@ nav ul {
 }
 
 #homePageLogo {
-    margin: 3vw auto 0 auto;
-    width: 40vw;
+    margin: 3vw auto;
+    height: calc(50px + 10vw);
 }
 
 #slogan {
     text-align: center;
-    color: #065d66;
+    color: #285068;
     font-style: italic;
     font-size: calc(6px + 1vw);
     margin-top: -1vw;
@@ -140,13 +140,13 @@ nav ul {
 #HomeImgText {
     padding-left: 1vw;
     font-size: calc(2.2vw - 1px);
-    color: #065d66;
+    color: #285068;
     font-weight: 600;
 }
 
 .pageTitle {
     text-align: center;
-    color: #065d66;
+    color: #285068;
     font-size: calc(16px + 4vw);
     margin: 3vw 0;
 }
@@ -172,13 +172,13 @@ nav ul {
 }
 
 .pageSubtitle {
-    color: #065d66;
+    color: #285068;
     font-size: calc(10px + 2vw);
     margin-bottom: 0.5vw;
 }
 
 .imgText {
-    color: #065d66;
+    color: #285068;
     font-size: calc(6px + 1vw);
 }
 
@@ -234,7 +234,7 @@ a {
 }
 
 .contactIcon {
-    filter: invert(28%) sepia(45%) saturate(768%) hue-rotate(137deg) brightness(95%) contrast(101%);
+    filter: invert(27%) sepia(7%) saturate(3577%) hue-rotate(159deg) brightness(92%) contrast(88%);
     margin: 0 auto;
     display: block;
 }
@@ -260,7 +260,7 @@ a {
 }
 
 .contactSubtitle {
-    color: #065d66;
+    color: #285068;
     font-size: calc(14px + 2vw);
     text-align: center;
     text-decoration: underline;
@@ -272,7 +272,7 @@ a {
     text-align: center;
     margin: 1vh 0;
     font-size: calc(12px + 0.5vw);
-    color: #065d66;
+    color: #285068;
 }
 
 .emailText {
@@ -281,12 +281,12 @@ a {
 
 .socialIcon {
     height: calc(20px + 2vh);
-    filter: invert(97%) sepia(6%) saturate(922%) hue-rotate(127deg) brightness(95%) contrast(97%);
+    filter: invert(87%) sepia(24%) saturate(5552%) hue-rotate(151deg) brightness(105%) contrast(95%);
     margin: 0 0.5vw;
 }
 
 footer {
-    background-color: #065d66;
+    background-color: #285068;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -300,19 +300,19 @@ footer {
 }
 
 .contactSocialIcon {
-    filter: invert(28%) sepia(45%) saturate(768%) hue-rotate(137deg) brightness(95%) contrast(101%);
+    filter: invert(27%) sepia(7%) saturate(3577%) hue-rotate(159deg) brightness(92%) contrast(88%);
     height: 5vh;
     margin: 0 1vw;
 }
 
 #copyright {
-    color: #c7eeee;
+    color: #35e6f9;
     margin-right: 5vw;
     font-size: calc(10px + 0.6vw);
 }
 
 #footerLogo {
-    color: #c7eeee;
+    color: #35e6f9;
     font-size: calc(10px + 0.6vw);
     margin-left: 5vw;
 }
