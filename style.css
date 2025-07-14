@@ -160,7 +160,7 @@ nav ul {
 }
 
 .successImgDiv {
-    width: 25vw;
+    width: 30vw;
     margin: 0 auto;
     padding-right: 1.5vw;
     display: flex;
@@ -168,7 +168,7 @@ nav ul {
 }
 
 .successTextDiv {
-    width: 55vw;
+    width: 50vw;
     padding-left: 1.5vw;
     margin: 0 auto;
 }
@@ -218,6 +218,7 @@ nav ul {
 .successTextImg {
     object-fit: cover;
     width: 100%;
+    padding: 5vw 0;
 }
 
 .benefitsSubtitle {
