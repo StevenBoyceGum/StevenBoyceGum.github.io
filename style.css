@@ -238,17 +238,22 @@ nav ul {
 }
 
 th {
-    font-size: calc(6px + 1vw);
+    font-size: calc(8px + 1vw);
     padding-right: 2vw;
     padding-left: 0.5vw;
     padding-bottom: 0.5vw;
     border-bottom: 3px solid #285068;
+    color: #285068;
 }
 
 td {
     padding-right: 2vw;
     padding-top: 0.5vw;
-    font-size: calc(4px + 0.8vw);
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    font-size: calc(6px + 0.8vw);
+    border-bottom: 1px solid #285068;
+    color: #285068
 }
 
 a {
