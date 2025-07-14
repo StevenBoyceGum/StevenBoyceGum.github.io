@@ -215,6 +215,11 @@ nav ul {
     border-radius: 2vw;
 }
 
+.successTextImg {
+    object-fit: cover;
+    width: 100%;
+}
+
 .benefitsSubtitle {
     margin: 1vw 0 0.5vw 0;
     font-size: calc(8px + 1vw);
