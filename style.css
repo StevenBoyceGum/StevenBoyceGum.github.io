@@ -151,6 +151,28 @@ nav ul {
     margin: 3vw 0;
 }
 
+.successDiv {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 3vw auto;
+    justify-content: center;
+}
+
+.successImgDiv {
+    width: 25vw;
+    margin: 0 auto;
+    padding-right: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.successTextDiv {
+    width: 55vw;
+    padding-left: 1.5vw;
+    margin: 0 auto;
+}
+
 .imgTextDiv {
     display: flex;
     flex-direction: row;
@@ -177,6 +199,11 @@ nav ul {
     margin-bottom: 0.5vw;
 }
 
+.successSubtitle {
+    color: #285068;
+    font-size: calc(10px + 1.8vw);
+}
+
 .imgText {
     color: #285068;
     font-size: calc(6px + 1vw);
@@ -198,6 +225,25 @@ nav ul {
     font-size: calc(4px + 0.7vw);
     margin-left: 2vw;
     color: #285068;
+}
+
+.metricsTable {
+    text-align: left;
+    margin-top: 1.5vw;
+}
+
+th {
+    font-size: calc(6px + 1vw);
+    padding-right: 2vw;
+    padding-left: 10px;
+    padding-bottom: 0.5vw;
+    border-bottom: 3px solid #285068;
+}
+
+td {
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    font-size: calc(4px + 0.8vw);
 }
 
 a {
@@ -326,6 +372,31 @@ footer {
 #footerLogo {
     height: calc(20px + 4vh);
     margin-left: 2vw;
+}
+
+@media only screen and (max-width: 1400px) {
+    .successDiv {
+        flex-direction: column;
+    }
+
+    .successSubtitle {
+        text-align: center;
+        margin-top: 1vw;
+    }
+
+    .successImgDiv {
+        width: 50vw;
+    }
+
+    .successTextDiv {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .metricsTable {
+        margin: 2vw auto;
+    }
 }
 
 @media only screen and (max-width: 800px) {
