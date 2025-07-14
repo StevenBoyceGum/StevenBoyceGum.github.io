@@ -240,7 +240,7 @@ nav ul {
 th {
     font-size: calc(6px + 1vw);
     padding-right: 2vw;
-    padding-left: 10px;
+    padding-left: 0.5vw;
     padding-bottom: 0.5vw;
     border-bottom: 3px solid #285068;
 }
