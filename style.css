@@ -357,6 +357,7 @@ a {
 footer {
     background-color: #285068;
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 2vh 0;
 }
@@ -375,8 +376,8 @@ footer {
 
 #copyright {
     color: #35e6f9;
-    margin-right: 5vw;
-    font-size: calc(10px + 0.6vw);
+    margin-right: 2vw;
+    font-size: calc(8px + 0.6vw);
 }
 
 #middleFooter {
