@@ -231,6 +231,8 @@ nav ul {
     font-size: calc(6px + 0.8vw);
     margin-left: calc(20px + 1vw);
     color: #285068;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .metricsTable {
