@@ -358,7 +358,6 @@ footer {
     background-color: #285068;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 2vh 0;
 }
 
@@ -378,6 +377,10 @@ footer {
     color: #35e6f9;
     margin-right: 5vw;
     font-size: calc(10px + 0.6vw);
+}
+
+#middleFooter {
+    margin: 0 auto;
 }
 
 #footerLogo {
