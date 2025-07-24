@@ -209,6 +209,23 @@ nav ul {
     font-size: calc(6px + 1vw);
 }
 
+.bioDiv {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.bioImg {
+    float: left;
+    margin-right: 2vw;
+    margin-bottom: 1.5vw;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.bioText {
+    margin-bottom: 2vh;
+}
+
 .textImg {
     object-fit: cover;
     width: 100%;
